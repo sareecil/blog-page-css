@@ -172,6 +172,12 @@ h1, h2, h3, h4, h5, h6 {
 .post1{
     width: 354px;
     padding: 16px;
+    border-style:ridge;
+    border-color: #e2dcdc36;
+}
+
+.post1 p {
+    color: #52647C
 }
 
 .post1 h4 {
@@ -182,29 +188,31 @@ h1, h2, h3, h4, h5, h6 {
     width: 1140px;
     display: flex;
     gap:24px ;
-    padding:  72px 543px 273px 165px;
+    padding:  72px 543px 73px 165px;
     padding-right: 350px;
-
 }
 
 .footer a {
     text-decoration: none;
+    color: #807E7E;   
+    font-weight: 400px;
+    line-height: 24px;
+
 }
 
 .footer ul{
-    list-style-type: none;    
+    list-style-type: none; 
+}
+
+
+.footer h4 {
+    width: 200px;
+    font-weight: 700px;
+    line-height: 24px;
 }
 
 .first{
     width: 165px;
-    height: 24px;
+    height: 240px;
+    font-family: "Open Sans";
 }
-
-
-
-
-
-
-
-
-
