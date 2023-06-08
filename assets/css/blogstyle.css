@@ -197,11 +197,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #807E7E;   
     font-weight: 400px;
     line-height: 24px;
-
 }
 
 .footer ul{
     list-style-type: none; 
+    padding-top: 8px;
+}
+
+.footer li{
+    padding-top: 8px;
+
 }
 
 
