@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #212121;
 }
 
-.headerIcons {
+.headerIkon {
     display: flex;
     gap: 30px;
 }
@@ -141,6 +141,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 347px;
     margin-top: 80px;
     justify-self:stretch;
+}
+hr{
+    margin-bottom: 24px;
+    margin-top: 24px;
+    color: #EAEAEA;
+
 }
 
 .genisalan h2 {
@@ -220,3 +226,4 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans";
     margin-right: 24px;
 }
+
