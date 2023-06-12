@@ -190,18 +190,18 @@ hr{
 }
 
 .footer{
-    width: 1140px;
     display: flex;
-    gap:24px ;
-    padding:  72px 543px 73px 165px;
-    padding-right: 350px;
+    gap:25px ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .footer a {
     text-decoration: none;
     color: #807E7E;   
-    font-weight: 400px;
-    line-height: 24px;
+    /* font-weight: 400px; */
+    /* line-height: 24px; */
 }
 
 .footer ul{
@@ -210,20 +210,61 @@ hr{
 }
 
 .footer li{
-    padding-top: 8px;
+    margin-bottom: 10px;
 
 }
 
 .footer h4 {
-    width: 200px;
-    font-weight: 700px;
-    line-height: 24px;
+    margin-bottom: 10px;
+    /* font-weight: 700px; */
+    /* line-height: 24px; */
 }
 
-.first{
+/* .first{
     width: 165px;
     height: 240px;
     font-family: "Open Sans";
     margin-right: 24px;
+} */
+
+.footerButton {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font: inherit;
+    margin-bottom:70px;
+}
+
+.footerButton form {
+    margin-top: 25px;
+    display: flex;
+
+}
+.footerButton input {
+    width: 250px;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+.footerButton form span {
+    background-color:#0D6EFD ;
+    color: #ECF1F8;
+    padding: 15px;
+}
+
+.footerBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerBottom span {
+    margin-left: 200px;
+}
+
+.footerSocial {
+    display: flex;
+    gap: 50px;
 }
 
